@@ -14,7 +14,6 @@ header {
     padding: 5px;             
     text-align: center;  
     text-shadow: 2px 2px 5px #F09440;
-
 }
 
 footer {
@@ -33,31 +32,6 @@ p {
     color: white
 }
 
-h3 {
-    color:white; 
-    background-color: #F09440;
-    padding: 10px; 
-    text-align: center;
-}
-
-#main_title h1 {
-    color: #f2f2f2;               
-    font-size: 75px;
-    letter-spacing: 4px;         
-}
-
-#main_title p {
-    background: linear-gradient(
-        90deg,
-        rgba(2, 48, 22, 1) 0%,
-        rgba(105, 138, 85, 1) 100%,
-        rgba(20, 105, 55, 1) 100%,
-        rgba(237, 221, 83, 1) 87%
-    );    
-    color: white; 
-    font-style: italic;
-}
-
 h2 {
     text-align: center;
 }
@@ -68,6 +42,35 @@ h4 {
 
 body {
     background-color: blanchedalmond;
+}
+
+.topic_heading {
+    color:white; 
+    background-color: #F09440;
+    padding: 10px; 
+    text-align: center;
+    font-size: 30px
+}
+
+#main_title h1 {
+    color: #f2f2f2;               
+    font-size: 75px;
+    letter-spacing: 4px; 
+    font-size: 100px; 
+}
+
+#main_title p {
+    background: linear-gradient(
+        90deg,
+        rgba(2, 48, 22, 1) 0%,
+        rgba(105, 138, 85, 1) 100%,
+        rgba(20, 105, 55, 1) 100%,
+        rgba(237, 221, 83, 1) 87%
+    );    
+    color: #F09440; 
+    font-style: italic;
+    text-shadow: none;
+    font-size: 30px
 }
 
 /* FLEX CONTAINER */
@@ -97,12 +100,12 @@ body {
 
 .card img {
     width: 100%;
-    border-radius: 8px;
+    border-radius: 10px;
+    border: 3px solid #146937; 
 }
 
 .card p {
     color:#146937
-
 }
 
 .card_text {
@@ -124,33 +127,37 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .topnav a:hover {
     background-color: #F0B36A;
     color: #146937;
     border: 3px solid #146937;   
+}
 
+.topnav h4{
+    font-size: 30px
 }
 
 /* IMAGE GRID OF DINO WISH LIST */
 .image-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;   
   grid-template-columns: 1fr 1fr 1fr;
   gap: 15px; 
-  max-width: 800px; 
+  max-width: 650px; 
   margin: 0 auto;  
   background-color:#146937;
   padding: 20px; 
   border-radius: 10px;
+  justify-content: center;
 }
 
 .image-grid img {
-  width: 100%;   
+  width: 200px;   
+  height: 200px; 
   border-radius: 10px; 
   border: 3px solid #F09440;   
-
 }
 
 .image-grid img:hover {
