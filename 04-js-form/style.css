@@ -1,0 +1,460 @@
+html {
+    font-size: larger; 
+    font-family: "Audiowide", sans-serif;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+  background: linear-gradient(180deg,rgba(12, 44, 86, 1) 37%, rgba(0, 92, 92, 1) 100%, rgba(196, 206, 212, 1) 95%, rgba(255, 255, 255, 1) 80%);
+}
+
+
+/* Header */
+header {
+    margin-top: 60px;          /* push below fixed nav */
+    text-align: center;
+    background: linear-gradient(
+        90deg,
+        #0c2c56 0%,     /* deep blue */
+        #005c5c 100%    /* Mariners teal */
+    );
+    color: #f2f2f2;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 30px 0;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4); /* subtle depth */
+    border-bottom: 2px solid #003366;         /* optional accent line */
+}
+
+.my-header h4 {
+    font-family: 'Lobster', cursive; 
+    font-size: 75px;
+    color: #ff7e5f;
+    margin-top: 0;  
+    margin-bottom: 0
+}
+
+.main-header h1 {
+    font-family: 'Graduate', serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #f2f2f2;
+    font-size: 100px; 
+    margin-top: 0;  
+    margin-bottom: 0;  
+}
+
+/* NAV BAR */
+.topnav {
+    display: flex;
+    align-items: center;
+    background-color: #005c5c;   
+    padding: 10px 20px;
+    gap: 20px;                  
+    position: fixed;             
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.topnav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-icon {
+    width: 40px;     
+    height: auto;
+}
+
+.topnav a:hover {
+    background-color: #083A57;
+    color: #f2f2f2;
+}
+
+.topnav h4{
+    font-size: 30px
+}
+
+.subheading {
+    background-color: #005c5c;  /* same color as nav for consistency */
+    color: #f2f2f2;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-align: left;           /* left-aligned text */
+    border-bottom: 2px solid #003366; /* optional accent line */
+}
+
+/* FLEX CONTAINER */
+.flexbox {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  gap: 20px;              
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* SALMON CARD STYLING */
+.card {
+    display: flex;              
+    align-items: center;        
+    gap: 16px;    
+    width: 100%;          
+    margin: 20px auto;   
+    max-width: 1000px;              
+    border: 1px solid #c4ced4; 
+    color: #c4ced4;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #005c5c; 
+    flex: 1 1 200px;
+    text-align: left; 
+    margin-bottom: 0;
+    transition: all 0.3s ease;  
+}
+
+.card h4{
+    font-family: 'Graduate', serif;
+    font-size: 50px; 
+    margin-top: 0; 
+    margin-bottom: 0
+}
+
+.card:hover {
+    background-color: #007f7f;               
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);               
+    transition: all 0.3s ease;      
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid #c4ced4; 
+}
+
+.card_text {
+    margin-top: 10px;
+    text-align: left;
+    color:#c4ced4; 
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;             
+    margin-top: 15px; 
+    margin-bottom: 15px      
+}
+
+.info-box {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #007f7f;
+    border: 3px solid #c4ced4;
+    border-radius: 12px;
+    color: #f2f2f2;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    justify-content: left;
+}
+
+.info-btn {
+    margin: 10px 5px 0 0;
+    padding: 10px 16px;
+    border: 2px solid #c4ced4; 
+    border-radius: 8px;
+    background-color: #005c5c;
+    color: #f2f2f2;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.info-box img {
+  width: 100%;        
+  height: auto;    
+  object-fit: cover;
+  border-radius: 10px; 
+  border: 3px solid #003366; 
+  display: block;       
+  margin-top: 10px;      
+}
+
+.info-btn:hover {
+    background-color: #0c2c56;
+}
+
+#info-box-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.image-grid {
+  display: grid;                
+  grid-template-columns: repeat(4, 1fr); 
+  grid-auto-rows: 200px;        
+  gap: 15px; 
+  max-width: 900px;             
+  margin: 0 auto;  
+  background-color: #005c5c;
+  padding: 20px; 
+  border-radius: 10px;
+}
+
+.image-grid img {
+  width: 100%;                   
+  height: 100%;                
+  object-fit: cover;             
+  border-radius: 10px; 
+  border: 3px solid #003366; 
+}
+
+.tweet-card {
+  display: flex;
+  justify-content: center;   
+  padding: 12px;
+  margin: 20px auto;
+  border: 3px solid #c4ced4;
+  border-radius: 10px;
+  background-color: #005c5c;
+  transition: all 0.3s ease;
+}
+
+.video-card video {
+  display: block;              
+  max-width: 100%;            
+  height: auto;               
+  border-radius: 10px;      
+}
+
+.tweet-card:hover {
+  background-color: #007f7f;
+  box-shadow: 0px 8px 16px #007f7f;
+}
+
+.footer {
+    background: linear-gradient(
+    90deg,
+    #0c2c56 0%,    
+    #005c5c 100%);
+    justify-content: center; 
+    align-items: center;
+    display: flex; 
+    padding: 10px
+}
+
+.footer img {
+    width: 100px;     
+    height: auto;
+}
+
+#make-a-race {
+    background-color: #005c5c;
+    color: #f2f2f2;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-bottom: 2px solid #003366;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#make-a-race-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;               
+    flex-wrap: wrap;         
+}
+
+.checkbox-option {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;   
+    border: 2px solid #c4ced4;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #007f7f;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.checkbox-option input[type="checkbox"] {
+    margin-bottom: 8px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.checkbox-option img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #c4ced4;
+    margin-bottom: 5px;
+}
+
+.checkbox-option .salmon-name {
+    font-weight: bold;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.checkbox-option:hover {
+    background-color: #0c2c56;
+    transform: scale(1.05);
+}
+
+#race-info {
+    display: None;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: #005c5c;
+    padding: 15px;
+    border-radius: 10px;
+    color: #f2f2f2;
+    margin-top: 15px;
+}
+
+#race-info p {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.winner-card {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid #c4ced4;
+    background-color: #007f7f;
+    color: #f2f2f2;
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s, transform 0.3s;
+}
+
+.winner-card img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #c4ced4;
+}
+
+.winner-card span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.race-btn {
+    margin: 0 auto;        
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f2f2f2;
+    background-color: #005c5c;
+    border: 2px solid #c4ced4;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.race-btn:hover {
+    background-color: #0c2c56;
+    transform: scale(1.05);
+}
+
+#predictions {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #007f7f;
+    border: 3px solid #c4ced4;
+    border-radius: 12px;
+    color: #f2f2f2;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#predictions h1 {
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #f2f2f2;
+    border-bottom: 2px solid #c4ced4;
+    padding-bottom: 10px;
+}
+
+#predictions p {
+    font-size: 18px;
+    margin: 15px 0 8px;
+}
+
+#predict-2025-stats label {
+    margin: 0 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#predict-2025-stats input[type="radio"],
+#predict-2025-stats input[type="number"] {
+    margin: 8px;
+    padding: 6px;
+    border-radius: 6px;
+    border: 2px solid #c4ced4;
+    font-size: 16px;
+    text-align: center;
+}
+
+#predict-2025-stats input[type="number"] {
+    width: 80px;
+}
+
+#predict-2025-stats button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f2f2f2;
+    background-color: #005c5c;
+    border: 2px solid #c4ced4;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#predict-2025-stats button:hover {
+    background-color: #0c2c56;
+    transform: scale(1.05);
+}
+
+#prediction-results .info-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px solid #c4ced4;
+    background-color: #005c5c;
+    color: #f2f2f2;
+    font-size: 18px;
+    text-align: center;
+}

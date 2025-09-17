@@ -1,0 +1,10 @@
+.Dice-roll {
+    font-size: 40px; 
+    background-color:blueviolet; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.stats {
+    display: flex; 
+    column-gap: 10px;
+}

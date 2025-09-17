@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>9-16-25</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="add-new-animal">
+            <form id="add-animal-form">
+                <label for="animal-type-field">Animal Type</label>
+                <input id="animal-type-field" type="text"></input>
+
+                <label for="animal-strength-field">Animal Strength</label>
+                <input id="animal-strength-field" type="number" min="1" max="20"></input>
+
+                <label for="animal-charisma-field">Animal Charisma</label>
+                <input id="animal-charisma-field" type="number" min="1" max="20"></input>
+
+                <button type="submit" id="create-animal-button">Add Animal</button>
+            </form>
+
+        </div>
+        <button onclick="rollDice()">Roll Dice</button>
+        <div id="Dice-roll"></div>
+        <div id="all-animal-info"></div>
+
+    <script src="animal.js"></script>
+    </body>
+</html>

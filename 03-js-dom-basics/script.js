@@ -44,7 +44,6 @@ function placeBet(userChoice) {
 }
 
 function showInfo(id, text) {
-    // see if the text box exists, if it does make it go away 
     const existingBox = document.querySelector(".info-box");
     if (existingBox) {
         existingBox.remove();
@@ -56,6 +55,6 @@ function showInfo(id, text) {
     infoBox.textContent = text;
     infoBox.style.fontSize = 16;  
 
-    // Append it to the bet section for styling 
+    // Make it all nice and pretty with the styling 
     document.getElementById("info-box-container").appendChild(infoBox);
 }
