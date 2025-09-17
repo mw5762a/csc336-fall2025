@@ -27,7 +27,8 @@ let marinersStats = {
     "2025": {
         year: 2025, 
         stats: '55', 
-        statsPredicted: ""
+        statsPredicted: "",
+        moreWins: ""
 }
 }
 
@@ -128,6 +129,7 @@ function submittedFormPredictions(event){
     let winOrLoss = document.querySelector('input[name="win-or-loss"]:checked');
     let numWins = document.querySelector('#estimate-wins').value;
     marinersStats["2025"].statsPredicted = numWins;
+    marinersStats["2025"].moreWins = winOrLoss.value
 
     if (!winOrLoss) {
         alert("Please select Wins or Losses.");
@@ -152,12 +154,21 @@ function submittedFormPredictions(event){
         resultMessage = "perfect!";
     }
 
+    let winMessage = "" 
+    if (winOrLoss.value === "Win") {
+        winMessage = "Correct"
+    }
+    else {
+        winMessage = "Incorrect"
+    }
+
     let container = document.getElementById("prediction-results");
     container.innerHTML = ""; 
     let infoBox = document.createElement("div");
     infoBox.classList.add("info-box");
 
     infoBox.innerHTML = `
+        <b>${winMessage}:</b> The Mariners won MORE than they loss!<br>
         <b>${marinersStats["2025"].year} Prediction:</b> ${marinersStats["2025"].statsPredicted}%<br>
         <b>${marinersStats["2025"].year} Actual:</b> ${marinersStats["2025"].stats}%<br>
         <b>Your prediction was ${resultMessage}</b>
