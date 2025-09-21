@@ -23,13 +23,6 @@ let marinersStats = {
         funFact: "A mid-season managerial change sparked a strong finish! This was also the year the salmon race was started.",
         img: "salmon_images/2024_mariners.jpg"
     }, 
-
-    "2025": {
-        year: 2025, 
-        stats: '55', 
-        statsPredicted: "",
-        moreWins: ""
-}
 }
 
 function showInfo(id) {
@@ -100,10 +93,11 @@ function startRace() {
 
     let winner = racers[Math.floor(Math.random() * racers.length)];
 
-    // show winner on the html page 
+    //Show winner on the html page 
     showWinner(winner);
 }
 
+//Show winner from the race on a card with image 
 function showWinner(winner) {
   let winnerCard = document.getElementById("race-winner-info");
   let winnerImg = document.getElementById("race-winner-image");
@@ -121,21 +115,30 @@ document.getElementById("start-race").addEventListener("click", startRace);
 
 let form = document.querySelector("#predict-2025-stats");
 
-
+//Get the users input predictions and compare agains the seasons actual stats (to date)
 document.querySelector("#predict-2025-stats").addEventListener("submit", submittedFormPredictions);
+
 function submittedFormPredictions(event){
     event.preventDefault(); 
 
+    //Query the form input areas
     let winOrLoss = document.querySelector('input[name="win-or-loss"]:checked');
     let numWins = document.querySelector('#estimate-wins').value;
-    marinersStats["2025"].statsPredicted = numWins;
-    marinersStats["2025"].moreWins = winOrLoss.value
 
+    marinersStats["2025"] = {
+        year: 2025, 
+        stats: "55", 
+        moreWins: winOrLoss.value, 
+        statsPredicted: numWins
+    };
+
+    //Send alert if either field is not checked/did not have correct input type
     if (!winOrLoss) {
         alert("Please select Wins or Losses.");
         return;
     }
 
+    //Ensure the input was within the bounds 
     if (isNaN(numWins) || numWins < 0 || numWins > 100) {
         alert("Please enter a valid number of wins (0-100).");
         return;
@@ -146,6 +149,7 @@ function submittedFormPredictions(event){
 
     let resultMessage = "";
 
+    //Tell user how their prediction was for percent wins 
     if (numWins < actualPercent) {
         resultMessage = "too low";
     } else if (numWins > actualPercent) {
@@ -154,6 +158,7 @@ function submittedFormPredictions(event){
         resultMessage = "perfect!";
     }
 
+    //Tell user how their prediction for more wins/losses was 
     let winMessage = "" 
     if (winOrLoss.value === "Win") {
         winMessage = "Correct"
@@ -162,6 +167,7 @@ function submittedFormPredictions(event){
         winMessage = "Incorrect"
     }
 
+    //Put prediciton results on the website in text box 
     let container = document.getElementById("prediction-results");
     container.innerHTML = ""; 
     let infoBox = document.createElement("div");
@@ -173,5 +179,6 @@ function submittedFormPredictions(event){
         <b>${marinersStats["2025"].year} Actual:</b> ${marinersStats["2025"].stats}%<br>
         <b>Your prediction was ${resultMessage}</b>
     `;
+
     container.appendChild(infoBox);
 }
