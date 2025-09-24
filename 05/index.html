@@ -1,0 +1,168 @@
+ <head>
+    <title>Salmon RUN</title>
+ </head>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js" defer></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/alertify.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/themes/semantic.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+
+<body>
+    <nav class="topnav">
+        <img src="salmon_images/mariners_transparent.png" alt="Mariners Icon" class="nav-icon">
+        <a href="#meet-the-salmon">Meet the Salmon</a>
+        <a href="#make-a-race-form">Make a Race</a>
+        <a href="#whose-winning">Winner Breakdown</a>
+    </nav>
+
+    <header class="main-header">
+        <h1>
+            The Salmon Run
+        </h1>
+    </header>
+
+    <div class="subheading" id="meet-the-salmon">
+        Meet the Salmon
+    </div>
+
+    <div class="flexbox" id="salmon_history">
+
+        <!-- King Salmon -->
+        <div class="card">
+            <a href="https://www.mlb.com/mariners/fans/salmon-run">
+                <img src="salmon_images/king_salmon.jpg" alt="King Salmon">
+            </a>
+            <div class="card_text">
+                <h4>King Salmon</h4>
+                <p>
+                    First, the largest and most decorated member of the salmon family. Powerful and proud like King County. Dominant and fiery like King Félix. 
+                    Donning its crown and cape, you can find this fish as the favorite in our race each game.
+                </p>
+                <ul>
+                    <li><b>Species:</b> Chinook/King Salmon</li>
+                    <li><b>Advantages:</b> Biggest, fastest, strongest</li>
+                    <li><b>Fun Fact:</b> Loves King Félix</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sockeye Salmon -->
+        <div class="card">
+            <a href="https://www.mlb.com/mariners/fans/salmon-run">
+                <img src="salmon_images/sockeye_salmon.jpg" alt="Sockeye Salmon">
+            </a>
+            <div class="card_text">
+                <h4>Sockeye Salmon</h4>
+                <p>
+                    A throwback to the grunge era, Sockeye is always seen sporting flannel and a septum piercing. This salmon is tough, scrappy, and creative, often headbanging to Seattle's iconic grunge bands.
+                </p>
+                <ul>
+                    <li><b>Species:</b> Sockeye Salmon</li>
+                    <li><b>Advantages:</b> Tough, scrappy, creative</li>
+                    <li><b>Fun Fact:</b> Stands for Mudhoney, Soundgarden, etc.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Silver Salmon -->
+        <div class="card">
+            <a href="https://www.mlb.com/mariners/fans/salmon-run">
+                <img src="salmon_images/silver_salmon.jpg" alt="Silver Salmon">
+            </a>
+            <div class="card_text">
+                <h4>Silver Salmon</h4>
+                <p>
+                    The tech-savvy salmon of the group, Silver is always seen with a device in hand. Brilliant and savvy, Silver uses their intellect to compete, often with a stunt up their sleeve.
+                </p>
+                <ul>
+                    <li><b>Species:</b> Silver/Coho Salmon</li>
+                    <li><b>Advantages:</b> Brilliant, savvy, tech-savvy</li>
+                    <li><b>Fun Fact:</b> Averages 18.5 hours of screen time per day</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Humpy Salmon -->
+        <div class="card">
+            <a href="https://www.mlb.com/mariners/fans/salmon-run">
+                <img src="salmon_images/humpy_salmon.jpg" alt="Humpy Salmon">
+            </a>
+            <div class="card_text">
+                <h4>Humpy Salmon</h4>
+                <p>
+                    The underdog of the group, Humpy is lovable but has a hard time finding its direction. Despite the challenges, Humpy brings joy and excitement to the race.
+                </p>
+                <ul>
+                    <li><b>Species:</b> Pink/Humpback Salmon</li>
+                    <li><b>Advantages:</b> Lovable underdog</li>
+                    <li><b>Fun Fact:</b> Has never won the race!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br>
+
+
+    <br>
+
+        <div class="subheading" id="make-a-race">
+        Make the Race!
+    </div>
+
+<form id="make-a-race-form">
+    
+    <div class="checkbox-container">
+        <label class="checkbox-option">
+            <input type="checkbox" name="racer" value="Humpy Salmon">
+            <img src="salmon_images/humpy_salmon.jpg" alt="Humpy Salmon">
+            <span class="salmon-name">Humpy Salmon</span>
+        </label>
+
+        <label class="checkbox-option">
+            <input type="checkbox" name="racer" value="King Salmon">
+            <img src="salmon_images/king_salmon.jpg" alt="King Salmon">
+            <span class="salmon-name">King Salmon</span>
+        </label>
+
+        <label class="checkbox-option">
+            <input type="checkbox" name="racer" value="Sockeye Salmon">
+            <img src="salmon_images/sockeye_salmon.jpg" alt="Sockeye Salmon">
+            <span class="salmon-name">Sockeye Salmon</span>
+        </label>
+
+        <label class="checkbox-option">
+            <input type="checkbox" name="racer" value="Silver Salmon">
+            <img src="salmon_images/silver_salmon.jpg" alt="Silver Salmon">
+            <span class="salmon-name">Silver Salmon</span>
+        </label>
+    </div>
+
+    <div class="button-container">
+        <button type="button" class="race-btn" id="start-race">Make a Race!</button>
+        <input type="reset" value="Reset" class="race-btn" onclick="ResetScreen()"/>
+    </div>
+</form>
+
+    <div id="race-winner-info" class="winner-card" style="display:none;">
+    <img id="race-winner-image" src="" alt="Winner Salmon">
+    <span id="race-winner-text"></span>
+    </div>
+
+    <div class="subheading" id="whose-winning">
+        Who Has Been Winning?
+    </div>
+
+    <div class="chart-background">
+        <div class="chart-container">
+            <canvas id="salmonWinsChart"></canvas>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <img src="salmon_images/mariners_transparent.png">
+</footer>
