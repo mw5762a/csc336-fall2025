@@ -20,9 +20,18 @@ body {
   border-bottom: 4px solid #C7CD9C; 
 }
 
-.site-header img {
-  width: 120px;
-  height: auto;
+.logo-text {
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  font-family: 'Bungee', sans-serif; 
+  font-size: 60px;
+  color: #f5f1ec;
+  gap: 10px; 
+}
+
+.logo-img {
+  height: 120px; 
 }
 
 .center-card {

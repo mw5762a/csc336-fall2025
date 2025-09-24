@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // Initialize MicroModal
   MicroModal.init({
     disableScroll: true,
     awaitOpenAnimation: true,
@@ -10,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const modalImage = document.getElementById("modalGeneral-image");
   const modalDescription = document.getElementById("modalGeneral-description");
 
+
   function showModal(title, description) {
     modalTitle.textContent = title;
     modalDescription.textContent = description;
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     MicroModal.show("modalGeneral");
   }
 
-  // Button events
+  // Button events to show the modals
   document.getElementById("btnSyrups").addEventListener("click", () => {
     showModal("Syrups", "Vanilla, Caramel, Hazelnut, Sugar Free Vanilla, Pumpkin (seasonal)");
   });
@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+// Flip the cards to the back when each of them are clicked. 
 document.querySelectorAll('.card').forEach(card => {
   let flipped = false; 
 
