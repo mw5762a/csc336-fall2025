@@ -1,0 +1,149 @@
+.site-header {
+  width: 100%;
+  background-color: rgba(11, 12, 16, 0.8); 
+  color: #f5f1ec;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.site-header img {
+    max-width: 400px;
+    text-align: center; 
+}
+
+.site-footer {
+  width: 100%;
+  background-color: rgba(11, 12, 16, 0.8); 
+  text-shadow: 3px 3px 1px (102, 252, 241, 0.75);
+  color: #f5f1ec;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Audiowide', cursive;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif;
+  color: #f5f1ec;
+  height: 100%;
+  background: url('images/space_background.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+    color: #f5f1ec; 
+    text-shadow: 2px 2px 4px rgba(102, 252, 241, 0.75); 
+}
+
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(11, 12, 16, 0.75); 
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 600px;
+  box-shadow: 0 10px 30px whitesmoke;
+}
+
+.overlay h1 {
+  font-family: 'Audiowide', cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #66fcf1;
+  text-shadow: 1px 1px 4px white;
+}
+
+.page-heading{
+font-family: 'Audiowide', cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #66fcf1;
+  text-shadow: 1px 1px 4px white;
+  text-align: center; 
+}
+
+/* ===== Button ===== */
+.button-style {
+  display: inline-block;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-family: 'Audiowide', cursive;
+  background-color: #1f2833; 
+  border-radius: 12px;
+  color: #66fcf1;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 6px 0 #0b0c10;
+  transition: all 0.3s ease;
+}
+
+.button-style:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 0 #0b0c10;
+  background-color: #45a29e;
+  color: #0b0c10;
+}
+
+.launch-buttons{
+    text-align: center;
+}
+
+.launch-buttons button {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: 'Audiowide', cursive;
+  border: 2px solid #66fcf1;  
+  border-radius: 10px;
+  background-color: rgba(31, 40, 51, 0.8);
+  color: #66fcf1;       
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.2s;
+}
+
+.launch-buttons button:hover {
+  background-color: #45a29e;
+  border: 2px solid #0b0c10;
+  color: #0b0c10;
+}
+
+.launch-details {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 12px;
+  background-color: rgba(11, 12, 16, 0.85);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.launch-details img {
+  max-width: 200px;
+  margin: 10px 0;
+}
+
+.launch-details h2 {
+  font-family: 'Audiowide', cursive;
+  color: #66fcf1;
+  margin: 10px 0;
+}
+
+.launch-details p {
+  margin: 8px 0;
+  line-height: 1.4;
+}
+
+.launch-details a {
+  color: #45a29e;
+  text-decoration: none;
+}
