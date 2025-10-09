@@ -1,0 +1,89 @@
+{
+    "regions": [
+        {
+            "name": "Breadville",
+            "climate": "temperate",
+            "towns": [
+                {
+                    "name": "Croissantland",
+                    "population": 20,
+                    "notable_people": [
+                        {
+                            "name": "Wheaton Breadston",
+                            "role": "Baker",
+                            "items": [
+                                "mixing bowl",
+                                "yeast",
+                                {"name": "iphone", "type": "12"},
+                                "flour"
+                            ]
+                        },
+                        {
+                            "name": "Rye Wholemeal",
+                            "role": "Content Creator",
+                            "items": [
+                                "camera",
+                                {"name": "iphone", "type": "14 plus"},
+                                "light"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Muffintown",
+                    "population": 30,
+                    "notable_people": [
+                        {
+                            "name": "Bran Mufflin",
+                            "role": "Sales Associate",
+                            "items": [
+                                "cash register",
+                                {"name": "iphone", "type": "11"}, 
+                                "scanner"
+                            ]
+                        },
+                        {
+                            "name": "Poppy Seedland",
+                            "role": "Manager",
+                            "items": [
+                                "radio",
+                                {"name": "iphone", "type": "15 pro"}, 
+                                "master keys"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dairyland",
+            "climate": "humid",
+            "towns": [
+                {
+                    "name": "Cheesey Cove",
+                    "population": 10,
+                    "notable_people": [
+                        {
+                            "name": "Swiss Cheddarton",
+                            "role": "Lead Cook",
+                            "items": [
+                                "spatula",
+                                {"name": "iphone", "type": "13"}, 
+                                "whisk"
+                            ]
+                        },
+                        {
+                            "name": "Goat Cheezers",
+                            "role": "Farmer",
+                            "items": [
+                                "cowboy hat",
+                                {"name": "iphone", "type": "none"}, 
+                                "overalls"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

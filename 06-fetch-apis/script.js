@@ -91,7 +91,7 @@ async function displayLaunch(launch, containerId) {
     // Webcast
     const webcast = document.createElement("a");
     webcast.href = launch.links.webcast || "#";
-    webcast.target = "_blank";
+    webcast.target = "_blank"; //Open in a new browser / page 
     webcast.textContent = launch.links.webcast ? "Watch Live Launch" : "No webcast link";
 
     container.appendChild(img);
