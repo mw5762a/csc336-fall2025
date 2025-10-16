@@ -1,0 +1,71 @@
+{
+  "regions": [
+    {
+      "name": "Breadville",
+      "climate": "temperate",
+      "towns": [
+        {
+          "name": "Croissantland",
+          "population": 45,
+          "notable_people": [
+            {
+              "name": "Wheaton Breadston",
+              "role": "Baker",
+              "items": [
+                "mixing bowl",
+                "yeast",
+                {
+                  "name": "iphone",
+                  "type": "12"
+                },
+                "flour"
+              ]
+            },
+            {
+              "name": "Rye Wholemeal",
+              "role": "Content Creator",
+              "items": [
+                "camera",
+                {
+                  "name": "iphone",
+                  "type": "14 plus"
+                },
+                "light"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Muffintown",
+          "population": 50,
+          "notable_people": [
+            {
+              "name": "Bran Mufflin",
+              "role": "Sales Associate",
+              "items": [
+                "cash register",
+                {
+                  "name": "iphone",
+                  "type": "11"
+                },
+                "scanner"
+              ]
+            },
+            {
+              "name": "Poppy Seedland",
+              "role": "Manager",
+              "items": [
+                "radio",
+                {
+                  "name": "iphone",
+                  "type": "15 pro"
+                },
+                "master keys"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
