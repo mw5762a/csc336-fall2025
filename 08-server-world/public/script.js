@@ -1,7 +1,10 @@
 
+let data; 
+let people = {}
+
 async function loadWorld() {
     const res = await fetch("/world");
-    const data = await res.json();
+    data = await res.json(); 
 
     let html = "<ul>";
 
@@ -18,6 +21,31 @@ async function loadWorld() {
 }
 
 loadWorld();
+
+async function setup() {
+    console.log("p5 set up!")
+    await loadWorld() 
+
+    // loop through JSON file for each of the fields 
+    for (let region of data.regions) {
+        for (let town of region.towns) {
+            for (let person of town.notable_people)
+            people[person.name] = new Person(person)
+            console.log(town.name)
+        }
+    }
+    createCanvas(800,600)
+    colorMode(HSB); 
+}
+
+
+function draw() {
+    background(frameCount%360, 100, 100)
+    for (let name in people) {
+        let person = people[name]
+        person.update() 
+    }
+}
 
 let nameForm = document.querySelector("#nameForm");
 
