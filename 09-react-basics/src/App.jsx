@@ -3,6 +3,7 @@ import "./App.css";
 import CardItem from "./CardItem";
 
 function App() {
+  // core cotestants, always show up on site 
   const [cards, setCards] = useState([
     {
       id: 1,
@@ -57,6 +58,7 @@ function App() {
 
   const [selectedContestant, setSelectedContestant] = useState("");
 
+  // drop down menu contestant options 
   const contestantOptions = {
     "Danielle Fischer": {
       partner: "Pasha Pashkov",
@@ -74,8 +76,21 @@ function App() {
       partner: "Gleb Savchenk",
       image: "https://hips.hearstapps.com/hmg-prod/images/178793-6442-v1-68b84a03cf6d8.jpg?crop=0.793xw:0.744xh;0.0850xw,0.186xh",
     },
+    "Lauren Jauregui": {
+      partner: "Brandon Armstrong", 
+      image: "https://hips.hearstapps.com/hmg-prod/images/snapinsta-to-543299330-18527632093014486-4756510974709944281-n-1-68d3ed3c141b8.jpg?crop=0.837xw:0.789xh;0.0850xw,0.155xh", 
+    }, 
+    "Baron Davis": {
+      partner: "Britt Stewart", 
+      image: "https://hips.hearstapps.com/hmg-prod/images/178793-0217-v1-68b851f02badc.jpg?crop=0.867xw:0.814xh;0.0510xw,0.138xh",
+    }, 
+    "Corey Feldman": {
+      partner: "Jenna Johnson", 
+      image: "https://hips.hearstapps.com/hmg-prod/images/178793-7199-v1-68b8555e610fb.jpg?crop=0.786xw:0.736xh;0.107xw,0.208xh",
+    }
   };
 
+  // increment votes for specific couple, update value 
   function addVote(id) {
     setCards((prevCards) =>
       prevCards.map((card) => {
@@ -92,6 +107,7 @@ function App() {
     );
   }
 
+  // add selected contestant from dropdown menu - if not already on site 
   function addContestant() {
 
     if (!selectedContestant) {
@@ -147,7 +163,7 @@ function App() {
         </div>
 
         <p class="instructions">Although some of your favorite contestants have been sent home, you have the ability to bring them back into the competiton! 
-          Select anyone from the dropdown menu to bring them back into the compeition!
+          Select anyone from the dropdown menu to bring them back into the competition!
         </p>
 
         <main className="card-container">
