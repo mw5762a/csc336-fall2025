@@ -104,7 +104,7 @@ function App() {
           return card;
         }
       })
-    );
+    )
   }
 
   // add selected contestant from dropdown menu - if not already on site 
@@ -114,11 +114,11 @@ function App() {
       return;
     }
 
-  for (let i = 0; i < cards.length; i++) {
-    if (cards[i].title === selectedContestant) {
-      return; 
+    for (let i = 0; i < cards.length; i++) {
+      if (cards[i].title === selectedContestant) {
+        return; 
+      }
     }
-  }
 
     const newContestant = contestantOptions[selectedContestant];
     const newCard = {
@@ -179,7 +179,7 @@ function App() {
         <button id="submit-button" className="card-button">Submit Votes</button>
       </div>
     </>
-  );
+  )
 }
 
 export default App;
