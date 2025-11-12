@@ -1,0 +1,713 @@
+{
+  "Week 1": {
+    "FeaturedVideo": "https://www.youtube.com/embed/Q2NHturyCVM?si=5rTTQaTY0IhO-BLE",
+    "Contestants": [
+      {
+        "Star": "Jordan",
+        "Dance-Song": "Break My Soul, Beyoncé",
+        "Dance-Type": "Salsa",
+        "Scores": 10,
+        "Eliminated": false
+      },
+      {
+        "Star": "Dylan",
+        "Dance-Song": "Milkshake, Kelis",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 10,
+        "Eliminated": false
+      },
+      {
+        "Star": "Elaine",
+        "Dance-Song": "Woman, Kesha (feat. the Dap-Kings Horns)",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 12,
+        "Eliminated": false
+      },
+      {
+        "Star": "Whitney",
+        "Dance-Song": "Golden, Huntr/x",
+        "Dance-Type": "Tango",
+        "Scores": 15,
+        "Eliminated": false
+      },
+      {
+        "Star": "Baron",
+        "Dance-Song": "U Can't Touch This, MC Hammer",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 10,
+        "Eliminated": false
+      },
+      {
+        "Star": "Alix",
+        "Dance-Song": "Circus, Britney Spears",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 13,
+        "Eliminated": false
+      },
+      {
+        "Star": "Scott",
+        "Dance-Song": "Abracadabra, Lady Gaga",
+        "Dance-Type": "Tango",
+        "Scores": 10,
+        "Eliminated": false
+      },
+      {
+        "Star": "Danielle",
+        "Dance-Song": "Stronger (What Doesn't Kill You), Kelly Clarkson",
+        "Dance-Type": "Tango",
+        "Scores": 12,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jen",
+        "Dance-Song": "Nuevayol, Bad Bunny",
+        "Dance-Type": "Salsa",
+        "Scores": 12,
+        "Eliminated": false
+      },
+      {
+        "Star": "Corey",
+        "Dance-Song": "It's Still Rock and Roll to Me, Billy Joel",
+        "Dance-Type": "Tango",
+        "Scores": 9,
+        "Eliminated": false
+      },
+      {
+        "Star": "Lauren",
+        "Dance-Song": "Yes, And?, Ariana Grande",
+        "Dance-Type": "Tango",
+        "Scores": 13,
+        "Eliminated": false
+      },
+      {
+        "Star": "Andy",
+        "Dance-Song": "Hold On, I'm Comin', Sam & Dave",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 9,
+        "Eliminated": false
+      },
+      {
+        "Star": "Hilaria",
+        "Dance-Song": "Let's Get Loud, Jennifer Lopez",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 14,
+        "Eliminated": false
+      },
+      {
+        "Star": "Robert",
+        "Dance-Song": "Born to be Wild, Steppenwolf",
+        "Dance-Type": "Jive",
+        "Scores": 15,
+        "Eliminated": false
+      }
+    ]
+  },
+  "Week 2": {
+    "FeaturedVideo": "https://www.youtube.com/embed/Gx4PD2Jw1wg?si=YOimbL93_hJ8R8BL",
+    "Contestants": [
+      {
+        "Star": "Alix",
+        "Dance-Song": "Mambo No. 5, Lou Bega",
+        "Dance-Type": "Jive",
+        "Scores": 21,
+        "Eliminated": false
+      },
+      {
+        "Star": "Danielle",
+        "Dance-Song": "The Rhythm of the Night, Corona",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 19,
+        "Eliminated": false
+      },
+      {
+        "Star": "Andy",
+        "Dance-Song": "It's Raining Men, The Weather Girls",
+        "Dance-Type": "Tango",
+        "Scores": 16,
+        "Eliminated": false
+      },
+      {
+        "Star": "Lauren",
+        "Dance-Song": "Lovefool, The Cardigans",
+        "Dance-Type": "Foxtrot",
+        "Scores": 21,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jordan",
+        "Dance-Song": "Maniac, Michael Sembello",
+        "Dance-Type": "Jive",
+        "Scores": 22,
+        "Eliminated": false
+      },
+      {
+        "Star": "Corey",
+        "Dance-Song": "Baby Got Back, Sir Mix-a-Lot",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 15,
+        "Eliminated": true
+      },
+      {
+        "Star": "Jen",
+        "Dance-Song": "Take On Me, a-ha",
+        "Dance-Type": "Quickstep",
+        "Scores": 22,
+        "Eliminated": false
+      },
+      {
+        "Star": "Robert",
+        "Dance-Song": "Move Your Feet, Junior Senior",
+        "Dance-Type": "Tango",
+        "Scores": 22,
+        "Eliminated": false
+      },
+      {
+        "Star": "Elaine",
+        "Dance-Song": "Hey Mickey, Toni Basil",
+        "Dance-Type": "Jive",
+        "Scores": 21,
+        "Eliminated": false
+      },
+      {
+        "Star": "Baron",
+        "Dance-Song": "Return of the Mack, Mark Morrison",
+        "Dance-Type": "Samba",
+        "Scores": 18,
+        "Eliminated": true
+      },
+      {
+        "Star": "Whitney",
+        "Dance-Song": "Play That Funky Music, Wild Cherry",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 22,
+        "Eliminated": false
+      },
+      {
+        "Star": "Hilaria",
+        "Dance-Song": "What Is Love, Haddaway",
+        "Dance-Type": "Tango",
+        "Scores": 21,
+        "Eliminated": false
+      },
+      {
+        "Star": "Dylan",
+        "Dance-Song": "Macarena (Bayside Boys Remix), Los del Río",
+        "Dance-Type": "Samba",
+        "Scores": 20,
+        "Eliminated": false
+      },
+      {
+        "Star": "Scott",
+        "Dance-Song": "Blue (Da Ba Dee), Eiffel 65",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 18,
+        "Eliminated": false
+      }
+    ]
+  },
+  "Week 3": {
+    "FeaturedVideo": "https://www.youtube.com/embed/IIgKprQ9Ixs?si=msHF_yyVIea76O_7",
+    "Contestants": [
+      {
+        "Star": "Jen",
+        "Dance-Song": "She's a Bad Mama Jama (She's Built, She's Stacked), Carl Carlton",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 19,
+        "Eliminated": false
+      },
+      {
+        "Star": "Lauren",
+        "Dance-Song": "Work from Home, Fifth Harmony feat. Ty Dolla Sign",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 18,
+        "Eliminated": true
+      },
+      {
+        "Star": "Danielle",
+        "Dance-Song": "Manchild, Sabrina Carpenter",
+        "Dance-Type": "Foxtrot",
+        "Scores": 21,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jordan",
+        "Dance-Song": "Anxiety, Doechii",
+        "Dance-Type": "Tango",
+        "Scores": 24,
+        "Eliminated": false
+      },
+      {
+        "Star": "Dylan",
+        "Dance-Song": "Yukon, Justin Bieber",
+        "Dance-Type": "Foxtrot",
+        "Scores": 23,
+        "Eliminated": false
+      },
+      {
+        "Star": "Elaine",
+        "Dance-Song": "Gnarly, Katseye",
+        "Dance-Type": "Tango",
+        "Scores": 21,
+        "Eliminated": false
+      },
+      {
+        "Star": "Whitney",
+        "Dance-Song": "Shake Ya Ass (Radio Edit), Mystikal",
+        "Dance-Type": "Samba",
+        "Scores": 24,
+        "Eliminated": false
+      },
+      {
+        "Star": "Scott",
+        "Dance-Song": "Like Jennie, Jennie",
+        "Dance-Type": "Jazz",
+        "Scores": 22,
+        "Eliminated": false
+      },
+      {
+        "Star": "Hilaria",
+        "Dance-Song": "Shake It to the Max (Fly) [Remix], Moliy, Silent Addy, Skillibeng & Shenseea",
+        "Dance-Type": "Samba",
+        "Scores": 22,
+        "Eliminated": false
+      },
+      {
+        "Star": "Andy",
+        "Dance-Song": "Northern Attitude, Noah Kahan & Hozier",
+        "Dance-Type": "Foxtrot",
+        "Scores": 18,
+        "Eliminated": false
+      },
+      {
+        "Star": "Robert",
+        "Dance-Song": "Million Dollar Baby, Tommy Richman",
+        "Dance-Type": "Salsa",
+        "Scores": 22,
+        "Eliminated": false
+      },
+      {
+        "Star": "Alix",
+        "Dance-Song": "Pop Muzik, M/Robin Scott",
+        "Dance-Type": "Quickstep",
+        "Scores": 23,
+        "Eliminated": false
+      }
+    ]
+  }, 
+  "Week 4": {
+    "FeaturedVideo": "https://www.youtube.com/embed/yji8XIBz5C8?si=cYEU4x3U5l2kZ4xU",
+    "Contestants": [
+      {
+        "Star": "Dylan",
+        "Dance-Song": "Life Is a Highway, Cars",
+        "Dance-Type": "Quickstep",
+        "Scores": 23,
+        "Eliminated": false
+      },
+      {
+        "Star": "Danielle",
+        "Dance-Song": "I Wan’na Be Like You (The Monkey Song), The Jungle Book",
+        "Dance-Type": "Quickstep",
+        "Scores": 21,
+        "Eliminated": false
+      },
+      {
+        "Star": "Scott",
+        "Dance-Song": "Bop to the Top, High School Musical",
+        "Dance-Type": "Salsa",
+        "Scores": 21,
+        "Eliminated": false
+      },
+      {
+        "Star": "Alix",
+        "Dance-Song": "Once Upon a Dream, Maleficent",
+        "Dance-Type": "Viennese waltz",
+        "Scores": 24,
+        "Eliminated": false
+      },
+      {
+        "Star": "Hilaria",
+        "Dance-Song": "Cantina Band, Star Wars: A New Hope",
+        "Dance-Type": "Quickstep",
+        "Scores": 23,
+        "Eliminated": true
+      },
+      {
+        "Star": "Andy",
+        "Dance-Song": "Le Festin, Ratatouille",
+        "Dance-Type": "Viennese waltz",
+        "Scores": 18,
+        "Eliminated": false
+      },
+      {
+        "Star": "Robert",
+        "Dance-Song": "Try Everything, Zootopia",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 22,
+        "Eliminated": false
+      },
+      {
+        "Star": "Elaine",
+        "Dance-Song": "Space Mountain, Space Mountain",
+        "Dance-Type": "Quickstep",
+        "Scores": 24,
+        "Eliminated": false
+      },
+      {
+        "Star": "Whitney",
+        "Dance-Song": "The Room Where It Happens, Hamilton",
+        "Dance-Type": "Foxtrot",
+        "Scores": 25,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jordan",
+        "Dance-Song": "Special Spice, Tiana's Bayou Adventure",
+        "Dance-Type": "Quickstep",
+        "Scores": 24,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jen",
+        "Dance-Song": "Friend Like Me, Aladdin",
+        "Dance-Type": "Jazz",
+        "Scores": 23,
+        "Eliminated": false
+      }
+    ]
+  },
+  "Week 5": {
+    "FeaturedVideo": "https://www.youtube.com/embed/Px_TAAkiXi0?si=g48juu9miSr01zZQ",
+    "Contestants": [
+      {
+        "Star": "Andy",
+        "Dance-Song": "Jump In the Line, Harry Belafonte",
+        "Dance-Type": "Salsa",
+        "Scores": 24,
+        "Eliminated": false
+      },
+      {
+        "Star": "Robert",
+        "Dance-Song": "You'll Be in My Heart, Phil Collins",
+        "Dance-Type": "Contemporary",
+        "Scores": 35,
+        "Eliminated": false
+      },
+      {
+        "Star": "Elaine",
+        "Dance-Song": "This Will Be (An Everlasting Love), Natalie Cole",
+        "Dance-Type": "Foxtrot",
+        "Scores": 30,
+        "Eliminated": false
+      },
+      {
+        "Star": "Whitney",
+        "Dance-Song": "Heal, Jamal Roberts",
+        "Dance-Type": "Contemporary",
+        "Scores": 33,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jen",
+        "Dance-Song": "Rescue, Lauren Daigle",
+        "Dance-Type": "Viennese waltz",
+        "Scores": 29,
+        "Eliminated": false
+      },
+      {
+        "Star": "Dylan",
+        "Dance-Song": "Rewrite the Stars, Zac Efron & Zendaya",
+        "Dance-Type": "Contemporary",
+        "Scores": 36,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jordan",
+        "Dance-Song": "Daughters, John Mayer",
+        "Dance-Type": "Viennese waltz",
+        "Scores": 32,
+        "Eliminated": false
+      },
+      {
+        "Star": "Scott",
+        "Dance-Song": "Parallel, Scott Hoying",
+        "Dance-Type": "Foxtrot",
+        "Scores": 30,
+        "Eliminated": false
+      },
+      {
+        "Star": "Danielle",
+        "Dance-Song": "Boy Meets World (Theme), Twenty Cent Crush feat. Phil Rosenthal",
+        "Dance-Type": "Jive",
+        "Scores": 29,
+        "Eliminated": false
+      },
+      {
+        "Star": "Alix",
+        "Dance-Song": "Sparks, Coldplay",
+        "Dance-Type": "Contemporary",
+        "Scores": 35,
+        "Eliminated": false
+      }
+    ]
+  },
+  "Week 6": {
+    "FeaturedVideo": "https://www.youtube.com/embed/vc9E6xagcWg?si=2DLbozXD_mvSmRNr",
+    "Contestants": [
+      {
+        "Star": "Scott",
+        "Dance-Song": "The Wizard and I, Cynthia Erivo feat. Michelle Yeoh",
+        "Dance-Type": "Contemporary",
+        "Scores": 28,
+        "Eliminated": true
+      },
+      {
+        "Star": "Alix",
+        "Dance-Song": "What Is This Feeling?, Ariana Grande & Cynthia Erivo",
+        "Dance-Type": "Jazz",
+        "Scores": 35,
+        "Eliminated": false
+      },
+      {
+        "Star": "Robert",
+        "Dance-Song": "Dancing Through Life, Jonathan Bailey feat. Ariana Grande, Ethan Slater, Marissa Bode & Cynthia Erivo",
+        "Dance-Type": "Jazz",
+        "Scores": 36,
+        "Eliminated": false
+      },
+      {
+        "Star": "Whitney",
+        "Dance-Song": "Popular, Ariana Grande",
+        "Dance-Type": "Quickstep",
+        "Scores": 39,
+        "Eliminated": false
+      },
+      {
+        "Star": "Dylan",
+        "Dance-Song": "I'm Not That Girl, Cynthia Erivo",
+        "Dance-Type": "Rumba",
+        "Scores": 32,
+        "Eliminated": false
+      },
+      {
+        "Star": "Andy",
+        "Dance-Song": "One Short Day, Cynthia Erivo, Ariana Grande, Kristin Chenoweth & Idina Menzel feat. Michael McCorry Rose",
+        "Dance-Type": "Jazz",
+        "Scores": 27,
+        "Eliminated": false
+      },
+      {
+        "Star": "Elaine",
+        "Dance-Song": "Defying Gravity, Cynthia Erivo feat. Ariana Grande",
+        "Dance-Type": "Contemporary",
+        "Scores": 36,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jen",
+        "Dance-Song": "As Long As You're Mine, Cynthia Erivo & Jonathan Bailey",
+        "Dance-Type": "Foxtrot",
+        "Scores": 32,
+        "Eliminated": false
+      },
+      {
+        "Star": "Danielle",
+        "Dance-Song": "No Good Deed, Cynthia Erivo",
+        "Dance-Type": "Argentine tango",
+        "Scores": 36,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jordan",
+        "Dance-Song": "For Good, Cynthia Erivo & Ariana Grande",
+        "Dance-Type": "Rumba",
+        "Scores": 39,
+        "Eliminated": false
+      }
+    ]
+  },
+  "Week 7": {
+    "FeaturedVideo": "https://www.youtube.com/embed/w1heWw5UpWc?si=7qU27on7eA1EVJD7",
+    "Contestants": [
+      {
+        "Star": "Whitney",
+        "Dance-Song": "Brain Stew, Green Day",
+        "Dance-Type": "Jazz",
+        "Scores": 37,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jordan",
+        "Dance-Song": "Elastic Heart, Sia",
+        "Dance-Type": "Contemporary",
+        "Scores": 34,
+        "Eliminated": false
+      },
+      {
+        "Star": "Andy",
+        "Dance-Song": "Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio, Ludwig van Beethoven",
+        "Dance-Type": "Paso doble",
+        "Scores": 28,
+        "Eliminated": false
+      },
+      {
+        "Star": "Elaine",
+        "Dance-Song": "Bad to the Bone, 2WEI & Bri Bryant",
+        "Dance-Type": "Argentine tango",
+        "Scores": 32,
+        "Eliminated": false
+      },
+      {
+        "Star": "Danielle",
+        "Dance-Song": "Die with a Smile, Lady Gaga & Bruno Mars",
+        "Dance-Type": "Viennese waltz",
+        "Scores": 33,
+        "Eliminated": false
+      },
+      {
+        "Star": "Robert",
+        "Dance-Song": "Sweet Dreams (Are Made of This), Hampton String Quartet",
+        "Dance-Type": "Argentine tango",
+        "Scores": 38,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jen",
+        "Dance-Song": "Look What You Made Me Do, Taylor Swift",
+        "Dance-Type": "Contemporary",
+        "Scores": 32,
+        "Eliminated": true
+      },
+      {
+        "Star": "Alix",
+        "Dance-Song": "Bury a Friend, Billie Eilish",
+        "Dance-Type": "Tango",
+        "Scores": 39,
+        "Eliminated": false
+      },
+      {
+        "Star": "Dylan",
+        "Dance-Song": "Can't Help Falling in Love (Dark), Tommee Profitt & Brooke",
+        "Dance-Type": "Viennese waltz",
+        "Scores": 35,
+        "Eliminated": false
+      }
+    ]
+  },
+  "Week 8": {
+    "FeaturedVideo": "https://www.youtube.com/embed/BzDVW8Z9TI0?si=gruZWIyCKSHyrfL9",
+    "Contestants": [
+      {
+        "Star": "Dylan",
+        "Dance-Song": "I'm Still Standing, Elton John",
+        "Dance-Type": "Jive",
+        "Scores": 36,
+        "Eliminated": false
+      },
+      {
+        "Star": "Alix",
+        "Dance-Song": "Livin' on a Prayer, Bon Jovi",
+        "Dance-Type": "Paso doble",
+        "Scores": 39,
+        "Eliminated": false
+      },
+      {
+        "Star": "Andy",
+        "Dance-Song": "God Only Knows, The Beach Boys",
+        "Dance-Type": "Contemporary",
+        "Scores": 30,
+        "Eliminated": false
+      },
+      {
+        "Star": "Whitney",
+        "Dance-Song": "No More Tears, Ozzy Osbourne",
+        "Dance-Type": "Paso doble",
+        "Scores": 39,
+        "Eliminated": false
+      },
+      {
+        "Star": "Danielle",
+        "Dance-Song": "Dream On, Aerosmith",
+        "Dance-Type": "Contemporary",
+        "Scores": 34,
+        "Eliminated": true
+      },
+      {
+        "Star": "Elaine",
+        "Dance-Song": "What the World Needs Now is Love, Dionne Warwick",
+        "Dance-Type": "Viennese waltz",
+        "Scores": 37,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jordan",
+        "Dance-Song": "River Deep – Mountain High, Ike & Tina Turner",
+        "Dance-Type": "Jazz",
+        "Scores": 38,
+        "Eliminated": false
+      },
+      {
+        "Star": "Robert",
+        "Dance-Song": "Icky Thump, The White Stripes",
+        "Dance-Type": "Paso doble",
+        "Scores": 38,
+        "Eliminated": false
+      }
+    ]
+  },
+  "Week 9": {
+    "FeaturedVideo": "https://www.youtube.com/embed/afASC_dHNbQ?si=D5LkWpgSYZWzvHgf",
+    "Contestants": [
+      {
+        "Star": "Elaine",
+        "Dance-Song": "It Takes Two, Rob Base & DJ E-Z Rock",
+        "Dance-Type": "Salsa",
+        "Scores": 36,
+        "Eliminated": false
+      },
+      {
+        "Star": "Robert",
+        "Dance-Song": "Footprints in the Sand, Leona Lewis",
+        "Dance-Type": "Foxtrot",
+        "Scores": 40,
+        "Eliminated": false
+      },
+      {
+        "Star": "Andy",
+        "Dance-Song": "Puttin' on the Ritz, Robbie Williams",
+        "Dance-Type": "Quickstep",
+        "Scores": 29,
+        "Eliminated": true
+      },
+      {
+        "Star": "Dylan",
+        "Dance-Song": "Ain't No Sunshine, Bill Withers",
+        "Dance-Type": "Argentine tango",
+        "Scores": 40,
+        "Eliminated": false
+      },
+      {
+        "Star": "Jordan",
+        "Dance-Song": "Get Up, Ciara feat. Chamillionaire",
+        "Dance-Type": "Cha-cha-cha",
+        "Scores": 37,
+        "Eliminated": false
+      },
+      {
+        "Star": "Alix",
+        "Dance-Song": "Singin' in the Rain, Matthew Morrison",
+        "Dance-Type": "Foxtrot",
+        "Scores": 40,
+        "Eliminated": false
+      },
+      {
+        "Star": "Whitney",
+        "Dance-Song": "Cell Block Tango, Chicago",
+        "Dance-Type": "Argentine tango",
+        "Scores": 40,
+        "Eliminated": false
+      }
+    ]
+  }
+}
+

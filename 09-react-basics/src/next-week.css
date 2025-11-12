@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Cinzel+Decorative:wght@700&display=swap');
+
+h1 {
+  font-family: 'Cinzel Decorative', serif;
+  text-shadow: 3px 3px 4px rgba(23,0,36,1); 
+  padding-bottom: 10px;
+}
+
+.countdown-container {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(90deg, rgba(23,0,36,1) 7%, rgba(106,9,121,1) 69%, rgba(255,0,166,1) 100%);
+  color: #fff;
+  min-height: 100vh;
+  padding-bottom: 10px; 
+}
+
+.countdown-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  padding-bottom: 50px; 
+  border-bottom: 4px solid rgba(23,0,36,1);
+}
+
+.countdown-box {
+  background: linear-gradient(135deg, #ac98cc, #7b5ea2);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  min-width: 100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Cinzel Decorative', serif;
+  border-bottom: 2px solid 
+}
+
+.number {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
