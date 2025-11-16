@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  justify-content: left; 
+  gap: 30px;
+  padding: 7px 0;
+  background: linear-gradient(135deg, #4b0082, #ac98cc, #ff00a6);
+  font-family: 'Cinzel Decorative', serif;
+  width: 100%; 
+  top: 0;
+  border-top: 5px solid #1a0d3b;
+  z-index: 1000;
+}
+
+footer a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+}
+
+footer a:hover {
+  color:#1a0d3b; 
+}

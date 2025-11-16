@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Cinzel+Decorative:wght@700&display=swap');
 
+html, body, p #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif; 
+  background-color: #1a0d3b; 
+  color: white;
+}
+
 h1 {
   font-family: 'Cinzel Decorative', serif;
   text-shadow: 3px 3px 4px rgba(23,0,36,1); 
   padding-bottom: 10px;
+}
+
+.container{
+  background: linear-gradient(90deg, rgba(23,0,36,1) 7%, rgba(106,9,121,1) 69%, rgba(255,0,166,1) 100%);
 }
 
 .countdown-container {
@@ -49,4 +63,50 @@ h1 {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.episode-detials {
+  background: linear-gradient(135deg, #ac98cc, #7b5ea2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  max-width: 80%;
+  max-height: 400px; 
+  margin: 0 auto; 
+  text-align: center;
+  border-radius: 12px;
+  border: 2px solid white; 
+  margin-top: 30px; 
+}
+
+.episode-detials h4 {
+  font-family: 'Cinzel Decorative', serif;
+  text-shadow: 2px 2px 4px rgba(23,0,36,1); 
+  font-size: 40px;
+  margin-bottom: 5px; 
+}
+
+.episode-detials p {
+  font-size: 20px; 
+}
+
+.link-button {
+  background: linear-gradient(135deg, #5b2e91, #2f0f54);
+  border-radius: 12px;
+  color: white; 
+  padding: 10px; 
+  margin-bottom: 10px; 
+  padding-bottom: 10px; 
+  border: 1px solid white; 
+}
+
+.link-button:hover {
+  background-color: #d8bfff; 
+  transform: translateY(-2px);
+  color: #ffb3ff; 
+}
+
+.link-button:focus,
+.link-button:active {
+  outline: none;
+  border: 2px solid #ff99ff;
+  box-shadow: 0 0 8px #ffb3ff;
 }

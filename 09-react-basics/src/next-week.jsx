@@ -22,7 +22,7 @@ function NextWeek() {
 
         function updateCountdown(currentTime) {
             const nextTuesday = new Date(currentTime);
-            
+
             // 2 represents Tuesday (in days) 
             nextTuesday.setDate(nextTuesday.getDate() + ((2 - nextTuesday.getDay() + 7) % 7));
             nextTuesday.setHours(20, 0, 0, 0);
@@ -30,11 +30,12 @@ function NextWeek() {
             const diff = nextTuesday - currentTime;
 
             if (diff <= 0) {
-                setTimeLeft({ 
-                    days: 0, 
-                    hours: 0, 
-                    minutes: 0, 
-                    seconds: 0 });
+                setTimeLeft({
+                    days: 0,
+                    hours: 0,
+                    minutes: 0,
+                    seconds: 0
+                });
                 return;
             }
 
@@ -52,7 +53,7 @@ function NextWeek() {
             updateCountdown(new Date());
         }, 1000); //update every second
 
-        return () => clearInterval(timer); 
+        return () => clearInterval(timer);
     }, []);
 
 
@@ -76,6 +77,14 @@ function NextWeek() {
                     <span className="number">{timeLeft.seconds}</span>
                     <span className="label">Seconds</span>
                 </div>
+            </div>
+            <div className="episode-detials">
+                <h4>Episode 10 | Semifinals</h4>
+                <p> <b>Theme:</b> Prince</p>
+                <p> <b>Decription: </b>Competing for a spot in the finals, contestants will perform two dances to songs by Prince.</p>
+                <a href="https://www.youtube.com/@dancingwiththestars" className="link-button">
+                    Catch up with the results
+                </a>
             </div>
         </div>
     );

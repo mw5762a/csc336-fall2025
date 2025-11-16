@@ -21,6 +21,10 @@ function App() {
           <Route path="/previous-weeks" element={<PreviousWeeks />} />
         </Routes>
       </BrowserRouter>
+
+      <footer>
+        <p></p>
+      </footer>
     </>
   )
 }

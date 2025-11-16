@@ -14,8 +14,10 @@ function PreviousWeeks() {
 
     return (
         <div className="container">
+            <div>
             <h1>{currentWeek}</h1>
-
+            <p className ="theme">Theme: {weekData.Theme}</p>
+            </div>
             <div className="week-buttons">
                 {Object.keys(weeksData).map((week) => (
                     <button key={week} onClick={() => handleWeekChange(week)}>

@@ -1,5 +1,6 @@
 {
   "Week 1": {
+    "Theme": "Premier", 
     "FeaturedVideo": "https://www.youtube.com/embed/Q2NHturyCVM?si=5rTTQaTY0IhO-BLE",
     "Contestants": [
       {
@@ -103,6 +104,7 @@
     ]
   },
   "Week 2": {
+    "Theme": "One-Hit Wonder Night", 
     "FeaturedVideo": "https://www.youtube.com/embed/Gx4PD2Jw1wg?si=YOimbL93_hJ8R8BL",
     "Contestants": [
       {
@@ -206,6 +208,7 @@
     ]
   },
   "Week 3": {
+    "Theme": "Tik-Tok Night", 
     "FeaturedVideo": "https://www.youtube.com/embed/IIgKprQ9Ixs?si=msHF_yyVIea76O_7",
     "Contestants": [
       {
@@ -295,6 +298,7 @@
     ]
   }, 
   "Week 4": {
+    "Theme": "Disney Night", 
     "FeaturedVideo": "https://www.youtube.com/embed/yji8XIBz5C8?si=cYEU4x3U5l2kZ4xU",
     "Contestants": [
       {
@@ -377,6 +381,7 @@
     ]
   },
   "Week 5": {
+    "Theme": "Dedication Night", 
     "FeaturedVideo": "https://www.youtube.com/embed/Px_TAAkiXi0?si=g48juu9miSr01zZQ",
     "Contestants": [
       {
@@ -452,6 +457,7 @@
     ]
   },
   "Week 6": {
+    "Theme": "Wicked Night", 
     "FeaturedVideo": "https://www.youtube.com/embed/vc9E6xagcWg?si=2DLbozXD_mvSmRNr",
     "Contestants": [
       {
@@ -527,6 +533,7 @@
     ]
   },
   "Week 7": {
+    "Theme": "Halloween Night", 
     "FeaturedVideo": "https://www.youtube.com/embed/w1heWw5UpWc?si=7qU27on7eA1EVJD7",
     "Contestants": [
       {
@@ -595,6 +602,7 @@
     ]
   },
   "Week 8": {
+    "Theme": "Rock and Roll Night Hall of Fame", 
     "FeaturedVideo": "https://www.youtube.com/embed/BzDVW8Z9TI0?si=gruZWIyCKSHyrfL9",
     "Contestants": [
       {
@@ -656,6 +664,7 @@
     ]
   },
   "Week 9": {
+    "Theme": "20th Birthday Party", 
     "FeaturedVideo": "https://www.youtube.com/embed/afASC_dHNbQ?si=D5LkWpgSYZWzvHgf",
     "Contestants": [
       {
