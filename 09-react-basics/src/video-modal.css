@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Cinzel+Decorative:wght@700&display=swap');
+
+.video-modal .modal-content {
+    background-color: #2B0139;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.video-modal .modal-header {
+    border-bottom: None;
+    color: white;
+    font-size: 20px; 
+}
+
+.video-modal .modal-title {
+    font-size: 40px;
+    font-family: 'Cinzel Decorative', serif;
+    text-shadow: 3px 3px 4px #b19cd9;
+}
+
+.video-modal .modal-body {
+    padding: 0;
+}
+
+.video-modal .btn-close {
+    filter: invert(1);
+    width: 28px;
+    height: 28px;
+    color: #b19cd9
+}
+
+.video-modal iframe {   
+    border-radius: 12px;
+    border: 2px solid #b19cd9
+}
+
+.video-modal iframe:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+}

@@ -2,6 +2,7 @@
     "Week 1": {
         "Theme": "Premier",
         "FeaturedVideo": "https://www.youtube.com/embed/sMISNyRlfps",
+        "NumberJudges": 2,
         "Contestants": [
             {
                 "Star": "Jordan",
@@ -119,6 +120,7 @@
     },
     "Week 2": {
         "Theme": "One-Hit Wonder Night",
+        "NumberJudges": 3,
         "FeaturedVideo": "https://www.youtube.com/embed/Gx4PD2Jw1wg",
         "Contestants": [
             {
@@ -238,6 +240,7 @@
     "Week 3": {
         "Theme": "TikTok Night",
         "FeaturedVideo": "https://www.youtube.com/embed/u9ZA2-17NXs",
+        "NumberJudges": 3,
         "Contestants": [
             {
                 "Star": "Jen",
@@ -339,6 +342,7 @@
     },
     "Week 4": {
         "Theme": "Disney Night",
+        "NumberJudges": 3,
         "FeaturedVideo": "https://www.youtube.com/embed/1KtmQ37W0z0",
         "Contestants": [
             {
@@ -433,6 +437,7 @@
     },
     "Week 5": {
         "Theme": "Dedication Night",
+        "NumberJudges": 4,
         "FeaturedVideo": "https://www.youtube.com/embed/tltdpFQkD5o",
         "Contestants": [
             {
@@ -498,317 +503,378 @@
                 "Scores": 30,
                 "Eliminated": false,
                 "Video": "https://www.youtube.com/embed/qHT0SZlACW8"
+            },
+            {
+                "Star": "Danielle",
+                "DanceSong": "Boy Meets World (Theme), Twenty Cent frush feat, Phil Rosenthal",
+                "DanceType": "Jive",
+                "Scores": 29,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/rJ05AnyVc6I?si=8XiBPwP9QvlTqICb"
+            },
+            {
+                "Star": "Alix",
+                "DanceSong": "Sparks, Coldplay",
+                "DanceType": "Contemporary",
+                "Scores": 35,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/yXfaNFyIAfM?si=DrDKXJsyzOP0QQau"
             }
         ]
     },
-        "Week 6": {
-            "Theme": "Wicked Night",
-            "FeaturedVideo": "https://www.youtube.com/embed/27uPwH1P4uc",
-            "Contestants": [
-                {
-                    "Star": "Scott",
-                    "Dance-Song": "The Wizard and I, Wicked",
-                    "DanceType": "Quickstep",
-                    "Scores": 30,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/P8iXoZrHu2s"
-                },
-                {
-                    "Star": "Dylan",
-                    "DanceSong": "Defying Gravity, Wicked",
-                    "DanceType": "Viennese waltz",
-                    "Scores": 33,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/3h5kjZ2WlcY"
-                },
-                {
-                    "Star": "Jordan",
-                    "DanceSong": "For Good, Wicked",
-                    "DanceType": "Contemporary",
-                    "Scores": 36,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/4IvYfITDR1A"
-                },
-                {
-                    "Star": "Andy",
-                    "DanceSong": "No Good Deed, Wicked",
-                    "DanceType": "Tango",
-                    "Scores": 29,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/qEOb8XZ5dG0"
-                },
-                {
-                    "Star": "Robert",
-                    "DanceSong": "Popular, Wicked",
-                    "DanceType": "Salsa",
-                    "Scores": 28,
-                    "Eliminated": true,
-                    "Video": "https://www.youtube.com/embed/8Z1FtL8QowY"
-                }
-            ]
-        },
-        "Week 7": {
-            "Theme": "Halloween Night",
-            "FeaturedVideo": "https://www.youtube.com/embed/C1VrH9X84k",
-            "Contestants": [
-                {
-                    "Star": "Whitney",
-                    "DanceSong": "Brain Stew, Green Day",
-                    "DanceType": "Jazz",
-                    "Scores": 37,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/HbEjTZx5dCQ"
-                },
-                {
-                    "Star": "Jordan",
-                    "DanceSong": "Elastic Heart, Sia",
-                    "DanceType": "Contemporary",
-                    "Scores": 34,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/6sCPkYzCuWc"
-                },
-                {
-                    "Star": "Andy",
-                    "DanceSong": "Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio, Ludwig van Beethoven",
-                    "DanceType": "Paso doble",
-                    "Scores": 28,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/eNWYll3W1_g"
-                },
-                {
-                    "Star": "Elaine",
-                    "DanceSong": "Bad to the Bone, 2WEI & Bri Bryant",
-                    "DanceType": "Argentine tango",
-                    "Scores": 32,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/ZkNPSUlax6Q"
-                },
-                {
-                    "Star": "Danielle",
-                    "DanceSong": "Die with a Smile, Lady Gaga & Bruno Mars",
-                    "DanceType": "Viennese waltz",
-                    "Scores": 33,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/ChZXxajewss"
-                },
-                {
-                    "Star": "Robert",
-                    "DanceSong": "Sweet Dreams (Are Made of This), Hampton String Quartet",
-                    "DanceType": "Argentine tango",
-                    "Scores": 38,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/kCnGuMPBkK4"
-                },
-                {
-                    "Star": "Jen",
-                    "DanceSong": "Look What You Made Me Do, Taylor Swift",
-                    "DanceType": "Contemporary",
-                    "Scores": 32,
-                    "Eliminated": true,
-                    "Video": "https://www.youtube.com/embed/RtqjUcMwmd0"
-                },
-                {
-                    "Star": "Alix",
-                    "DanceSong": "Bury a Friend, Billie Eilish",
-                    "DanceType": "Tango",
-                    "Scores": 39,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/w1heWw5UpWc"
-                },
-                {
-                    "Star": "Dylan",
-                    "DanceSong": "Can't Help Falling in Love (Dark), Tommee Profitt & Brooke",
-                    "DanceType": "Viennese waltz",
-                    "Scores": 35,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/2WYcj4q8_Pg"
-                }
-            ]
-        },
-        "Week 8": {
-            "Theme": "Rock and Roll Night Hall of Fame",
-            "FeaturedVideo": "https://www.youtube.com/embed/PjUM2tEUDcg",
-            "Contestants": [
-                {
-                    "Star": "Dylan",
-                    "DanceSong": "I'm Still Standing, Elton John",
-                    "DanceType": "Jive",
-                    "Scores": 36,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/R1NZrIWaMqU"
-                },
-                {
-                    "Star": "Alix",
-                    "DanceSong": "Livin' on a Prayer, Bon Jovi",
-                    "DanceType": "Paso doble",
-                    "Scores": 39,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/S7toy8WgW40"
-                },
-                {
-                    "Star": "Andy",
-                    "DanceSong": "God Only Knows, The Beach Boys",
-                    "DanceType": "Contemporary",
-                    "Scores": 30,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/t5Nc7OElJQE"
-                },
-                {
-                    "Star": "Whitney",
-                    "DanceSong": "No More Tears, Ozzy Osbourne",
-                    "DanceType": "Paso doble",
-                    "Scores": 39,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/NjjN0K6tWGQ"
-                },
-                {
-                    "Star": "Danielle",
-                    "DanceSong": "Dream On, Aerosmith",
-                    "DanceType": "Contemporary",
-                    "Scores": 34,
-                    "Eliminated": true,
-                    "Video": "https://www.youtube.com/embed/aBza1aK3NW8"
-                },
-                {
-                    "Star": "Elaine",
-                    "DanceSong": "What the World Needs Now is Love, Dionne Warwick",
-                    "DanceType": "Viennese waltz",
-                    "Scores": 37,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/xuX41kbLgCA"
-                },
-                {
-                    "Star": "Jordan",
-                    "DanceSong": "River Deep – Mountain High, Ike & Tina Turner",
-                    "DanceType": "Jazz",
-                    "Scores": 38,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/BzDVW8Z9TI0"
-                },
-                {
-                    "Star": "Robert",
-                    "DanceSong": "Icky Thump, The White Stripes",
-                    "DanceType": "Paso doble",
-                    "Scores": 38,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/ReoLkiDcX0k"
-                }
-            ]
-        },
-        "Week 9": {
-            "Theme": "20th Birthday Party",
-            "FeaturedVideo": "https://www.youtube.com/embed/DXqFO23sj_E",
-            "Contestants": [
-                {
-                    "Star": "Elaine",
-                    "DanceSong": "It Takes Two, Rob Base & DJ EZ Rock",
-                    "DanceType": "Salsa",
-                    "Scores": 36,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/hROyvgq1Go"
-                },
-                {
-                    "Star": "Robert",
-                    "DanceSong": "Footprints in the Sand, Leona Lewis",
-                    "DanceType": "Foxtrot",
-                    "Scores": 40,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/J3LWNcwvC8"
-                },
-                {
-                    "Star": "Andy",
-                    "DanceSong": "Puttin' on the Ritz, Robbie Williams",
-                    "DanceType": "Quickstep",
-                    "Scores": 29,
-                    "Eliminated": true,
-                    "Video": "https://www.youtube.com/embed/VaxLlnojipM"
-                },
-                {
-                    "Star": "Dylan",
-                    "DanceSong": "Ain't No Sunshine, Bill Withers",
-                    "DanceType": "Argentine tango",
-                    "Scores": 40,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/8TXWGPxt7bw"
-                },
-                {
-                    "Star": "Jordan",
-                    "DanceSong": "Get Up, Ciara feat. Chamillionaire",
-                    "DanceType": "Cha-cha-cha",
-                    "Scores": 37,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/_m4XdIQtoKU"
-                },
-                {
-                    "Star": "Alix",
-                    "DanceSong": "Singin' in the Rain, Matthew Morrison",
-                    "DanceType": "Foxtrot",
-                    "Scores": 40,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/afASC_dHNbQ"
-                },
-                {
-                    "Star": "Whitney",
-                    "DanceSong": "Cell Block Tango, Chicago",
-                    "DanceType": "Argentine tango",
-                    "Scores": 40,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/8_lZsB0QYZ8"
-                }
-            ]
-        },
-        "Week 10": {
-            "Theme": "Prince Night (Semifinals)",
-            "FeaturedVideo": "https://www.youtube.com/embed/DXqFO23sj_E",
-            "Contestants": [
-                {
-                    "Star": "Elaine",
-                    "DanceSong": "I Wanna be Your Lover",
-                    "DanceType": "Foxtrot",
-                    "Scores": 27,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/hROyvgq1Go"
-                },
-                {
-                    "Star": "Robert",
-                    "DanceSong": "Baby I'm a Star",
-                    "DanceType": "Jive",
-                    "Scores": 30,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/J3LWNcwvC8"
-                },
-                {
-                    "Star": "Dylan",
-                    "DanceSong": "I Wanna Die 4 U",
-                    "DanceType": "Argentine tango",
-                    "Scores": 27,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/8TXWGPxt7bw"
-                },
-                {
-                    "Star": "Jordan",
-                    "DanceSong": "Raspberry Beret",
-                    "DanceType": "Jive",
-                    "Scores": 27,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/_m4XdIQtoKU"
-                },
-                {
-                    "Star": "Alix",
-                    "DanceSong": "Little Red Corvette",
-                    "DanceType": "Argentine tango",
-                    "Scores": 28,
-                    "Eliminated": false,
-                    "Video": "https://www.youtube.com/embed/afASC_dHNbQ"
-                },
-                {
-                    "Star": "Whitney",
-                    "DanceSong": "1999",
-                    "DanceType": "Cha-cha-cha",
-                    "Scores": 29,
-                    "Eliminated": true,
-                    "Video": "https://www.youtube.com/embed/8_lZsB0QYZ8"
-                }
-            ]
-        }
+    "Week 6": {
+        "Theme": "Wicked Night",
+        "NumberJudges": 4,
+        "FeaturedVideo": "https://www.youtube.com/embed/27uPwH1P4uc",
+        "Contestants": [
+            {
+                "Star": "Scott",
+                "Dance-Song": "The Wizard and I, Wicked",
+                "DanceType": "Contemporary",
+                "Scores": 28,
+                "Eliminated": true,
+                "Video": "https://www.youtube.com/embed/P8iXoZrHu2s"
+            },
+            {
+                "Star": "Alix",
+                "Dance-Song": "What Is This Feeling, Ariana Grande and Cynthia Erivo",
+                "DanceType": "Jazz",
+                "Scores": 35,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/yXfaNFyIAfM?si=76TDew2UW8QEgfX7"
+            },
+            {
+                "Star": "Danielle",
+                "Dance-Song": "No Good Deed, Cynthia Erivo",
+                "DanceType": "Tango",
+                "Scores": 36,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/rJ05AnyVc6I?si=SM8ckCv-ONJrkMcW"
+            },
+            {
+                "Star": "Whitney",
+                "Dance-Song": "Popular, Ariana Grande",
+                "DanceType": "Quickstep",
+                "Scores": 39,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/_lURqm8lToc?si=jvSYD7x_hBe-TlEE"
+            },
+            {
+                "Star": "Elaine",
+                "Dance-Song": "Defying Gravity, Cynthia Erivo feat. Ariana Grande",
+                "DanceType": "Contemporary",
+                "Scores": 36,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/SE6nXBHPWSg?si=LHnaXNFDV1ELAtSU"
+            },
+            {
+                "Star": "Jen",
+                "Dance-Song": "As Long As You're Mine, Cynthia Erivo and Jonathan Bailey",
+                "DanceType": "Foxtrot",
+                "Scores": 28,
+                "Eliminated": true,
+                "Video": "https://www.youtube.com/embed/2IdWzorgOZ8?si=-B3SNliVoxqRE-BX"
+            },
+            {
+                "Star": "Dylan",
+                "DanceSong": "I'm Not That Girl, Cynthia Erivo",
+                "DanceType": "Ruma",
+                "Scores": 32,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/3h5kjZ2WlcY"
+            },
+            {
+                "Star": "Jordan",
+                "DanceSong": "For Good, Wicked",
+                "DanceType": "Rumba",
+                "Scores": 39,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/4IvYfITDR1A"
+            },
+            {
+                "Star": "Andy",
+                "DanceSong": "One Short Day, Wicked",
+                "DanceType": "Jazz",
+                "Scores": 27,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/qEOb8XZ5dG0"
+            },
+            {
+                "Star": "Robert",
+                "DanceSong": "Popular, Wicked",
+                "DanceType": "Jazz",
+                "Scores": 36,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/8Z1FtL8QowY"
+            }
+        ]
+    },
+    "Week 7": {
+        "Theme": "Halloween Night",
+        "NumberJudges": 4,
+        "FeaturedVideo": "https://www.youtube.com/embed/C1VrH9X84k",
+        "Contestants": [
+            {
+                "Star": "Whitney",
+                "DanceSong": "Brain Stew, Green Day",
+                "DanceType": "Jazz",
+                "Scores": 37,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/HbEjTZx5dCQ"
+            },
+            {
+                "Star": "Jordan",
+                "DanceSong": "Elastic Heart, Sia",
+                "DanceType": "Contemporary",
+                "Scores": 34,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/6sCPkYzCuWc"
+            },
+            {
+                "Star": "Andy",
+                "DanceSong": "Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio, Ludwig van Beethoven",
+                "DanceType": "Paso doble",
+                "Scores": 28,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/eNWYll3W1_g"
+            },
+            {
+                "Star": "Elaine",
+                "DanceSong": "Bad to the Bone, 2WEI & Bri Bryant",
+                "DanceType": "Argentine tango",
+                "Scores": 32,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/ZkNPSUlax6Q"
+            },
+            {
+                "Star": "Danielle",
+                "DanceSong": "Die with a Smile, Lady Gaga & Bruno Mars",
+                "DanceType": "Viennese waltz",
+                "Scores": 33,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/ChZXxajewss"
+            },
+            {
+                "Star": "Robert",
+                "DanceSong": "Sweet Dreams (Are Made of This), Hampton String Quartet",
+                "DanceType": "Argentine tango",
+                "Scores": 38,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/kCnGuMPBkK4"
+            },
+            {
+                "Star": "Jen",
+                "DanceSong": "Look What You Made Me Do, Taylor Swift",
+                "DanceType": "Contemporary",
+                "Scores": 32,
+                "Eliminated": true,
+                "Video": "https://www.youtube.com/embed/RtqjUcMwmd0"
+            },
+            {
+                "Star": "Alix",
+                "DanceSong": "Bury a Friend, Billie Eilish",
+                "DanceType": "Tango",
+                "Scores": 39,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/w1heWw5UpWc"
+            },
+            {
+                "Star": "Dylan",
+                "DanceSong": "Can't Help Falling in Love (Dark), Tommee Profitt & Brooke",
+                "DanceType": "Viennese waltz",
+                "Scores": 35,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/2WYcj4q8_Pg"
+            }
+        ]
+    },
+    "Week 8": {
+        "Theme": "Rock and Roll Night Hall of Fame",
+        "NumberJudges": 4,
+        "FeaturedVideo": "https://www.youtube.com/embed/PjUM2tEUDcg",
+        "Contestants": [
+            {
+                "Star": "Dylan",
+                "DanceSong": "I'm Still Standing, Elton John",
+                "DanceType": "Jive",
+                "Scores": 36,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/R1NZrIWaMqU"
+            },
+            {
+                "Star": "Alix",
+                "DanceSong": "Livin' on a Prayer, Bon Jovi",
+                "DanceType": "Paso doble",
+                "Scores": 39,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/S7toy8WgW40"
+            },
+            {
+                "Star": "Andy",
+                "DanceSong": "God Only Knows, The Beach Boys",
+                "DanceType": "Contemporary",
+                "Scores": 30,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/t5Nc7OElJQE"
+            },
+            {
+                "Star": "Whitney",
+                "DanceSong": "No More Tears, Ozzy Osbourne",
+                "DanceType": "Paso doble",
+                "Scores": 39,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/NjjN0K6tWGQ"
+            },
+            {
+                "Star": "Danielle",
+                "DanceSong": "Dream On, Aerosmith",
+                "DanceType": "Contemporary",
+                "Scores": 34,
+                "Eliminated": true,
+                "Video": "https://www.youtube.com/embed/aBza1aK3NW8"
+            },
+            {
+                "Star": "Elaine",
+                "DanceSong": "What the World Needs Now is Love, Dionne Warwick",
+                "DanceType": "Viennese waltz",
+                "Scores": 37,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/xuX41kbLgCA"
+            },
+            {
+                "Star": "Jordan",
+                "DanceSong": "River Deep – Mountain High, Ike & Tina Turner",
+                "DanceType": "Jazz",
+                "Scores": 38,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/BzDVW8Z9TI0"
+            },
+            {
+                "Star": "Robert",
+                "DanceSong": "Icky Thump, The White Stripes",
+                "DanceType": "Paso doble",
+                "Scores": 38,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/ReoLkiDcX0k"
+            }
+        ]
+    },
+    "Week 9": {
+        "Theme": "20th Birthday Party",
+        "NumberJudges": 4,
+        "FeaturedVideo": "https://www.youtube.com/embed/DXqFO23sj_E",
+        "Contestants": [
+            {
+                "Star": "Elaine",
+                "DanceSong": "It Takes Two, Rob Base & DJ EZ Rock",
+                "DanceType": "Salsa",
+                "Scores": 36,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/hROyvgq1Go"
+            },
+            {
+                "Star": "Robert",
+                "DanceSong": "Footprints in the Sand, Leona Lewis",
+                "DanceType": "Foxtrot",
+                "Scores": 40,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/J3LWNcwvC8"
+            },
+            {
+                "Star": "Andy",
+                "DanceSong": "Puttin' on the Ritz, Robbie Williams",
+                "DanceType": "Quickstep",
+                "Scores": 29,
+                "Eliminated": true,
+                "Video": "https://www.youtube.com/embed/VaxLlnojipM"
+            },
+            {
+                "Star": "Dylan",
+                "DanceSong": "Ain't No Sunshine, Bill Withers",
+                "DanceType": "Argentine tango",
+                "Scores": 40,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/8TXWGPxt7bw"
+            },
+            {
+                "Star": "Jordan",
+                "DanceSong": "Get Up, Ciara feat. Chamillionaire",
+                "DanceType": "Cha-cha-cha",
+                "Scores": 37,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/_m4XdIQtoKU"
+            },
+            {
+                "Star": "Alix",
+                "DanceSong": "Singin' in the Rain, Matthew Morrison",
+                "DanceType": "Foxtrot",
+                "Scores": 40,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/afASC_dHNbQ"
+            },
+            {
+                "Star": "Whitney",
+                "DanceSong": "Cell Block Tango, Chicago",
+                "DanceType": "Argentine tango",
+                "Scores": 40,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/8_lZsB0QYZ8"
+            }
+        ]
+    },
+    "Week 10": {
+        "Theme": "Prince Night (Semifinals)",
+        "NumberJudges": 3,
+        "FeaturedVideo": "https://www.youtube.com/embed/AaapMFGNSq0?si=6BYR1etlCsY6U6Al",
+        "Contestants": [
+            {
+                "Star": "Elaine",
+                "DanceSong": "I Wanna be Your Lover",
+                "DanceType": "Foxtrot",
+                "Scores": 27,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/tboloIqxpYU?si=tp8YHq93ylB-gSBu"
+            },
+            {
+                "Star": "Robert",
+                "DanceSong": "Baby I'm a Star",
+                "DanceType": "Jive",
+                "Scores": 30,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/2Zk_ZSxmGpk?si=FX9vQc--Rwta7nNy"
+            },
+            {
+                "Star": "Dylan",
+                "DanceSong": "I Wanna Die 4 U",
+                "DanceType": "Argentine tango",
+                "Scores": 27,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/ZpmHdqaX3kU?si=fC5nEvW_BeYsz3rZ"
+            },
+            {
+                "Star": "Jordan",
+                "DanceSong": "Raspberry Beret",
+                "DanceType": "Jive",
+                "Scores": 27,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/NLOMbQ4OIs4?si=VuOPNXimPg551syW"
+            },
+            {
+                "Star": "Alix",
+                "DanceSong": "Little Red Corvette",
+                "DanceType": "Argentine tango",
+                "Scores": 28,
+                "Eliminated": false,
+                "Video": "https://www.youtube.com/embed/J9RVHqQHPMI?si=gRnuyS9CKCYogaza"
+            },
+            {
+                "Star": "Whitney",
+                "DanceSong": "1999",
+                "DanceType": "Cha-cha-cha",
+                "Scores": 29,
+                "Eliminated": true,
+                "Video": "https://www.youtube.com/embed/rspYSpksGSI?si=itQIUJ92Ed2qZowA"
+            }
+        ]
     }
+}

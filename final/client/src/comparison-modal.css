@@ -1,0 +1,39 @@
+.comparison-modal .modal-content {
+    background-color: white;
+    color: #2B0139;
+    border-radius: 12px;
+    font-family: "Dosis", sans-serif;
+    border: 3px solid #a873ff;
+}
+
+.comparison-modal .modal-header {
+    border-bottom: 1px solid #444;
+    font-family: "Dosis", sans-serif; 
+}
+
+.comparison-modal .comaprison-modal-title {
+    font-family: "Dosis", sans-serif;
+}
+
+.comparison-modal .modal-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #2B0139; 
+}
+
+.comparison-modal .modal-body {
+    padding: 1rem 2rem;
+    font-family: "Dosis", sans-serif; 
+    color: #2B0139; 
+}
+
+.comparison-modal .close {
+    color: #2B0139;
+    opacity: 1;
+}
+
+.video-modal .btn-close {
+    filter: invert(0);
+    width: 28px;
+    height: 28px;
+}

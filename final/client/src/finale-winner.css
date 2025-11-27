@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Cinzel+Decorative:wght@700&display=swap');
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif; 
+  background-color: #1a0d3b; 
+  color: white;
+}
+
+h1 {
+  font-family: 'Cinzel Decorative', serif;
+  text-shadow: 3px 3px 4px rgba(23,0,36,1); 
+  padding-bottom: 10px;
+  font-size: 70px; 
+}
+
+.instructions {
+  font-family: "Dosis", sans-serif; 
+  text-align: center;
+  background: linear-gradient(135deg, #ac98cc, #7b5ea2); 
+  color: #fff;
+  border-radius: 12px;
+  padding: 1rem 1.5rem; 
+  margin: 20px auto; 
+  max-width: 800px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  font-size: 1.1rem; 
+  line-height: 1.5;
+}
+
+.app-background {
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(90deg,rgba(23, 0, 36, 1) 7%, rgba(106, 9, 121, 1) 69%, rgba(255, 0, 166, 1) 100%);
+  background-attachment: fixed;   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px; 
+}
+
+nav {
+  display: flex;
+  justify-content: left; 
+  gap: 30px;
+  padding: 7px 0;
+  background: linear-gradient(135deg, #4b0082, #ac98cc, #ff00a6);
+  font-family: 'Cinzel Decorative', serif;
+  width: 100%; 
+  top: 0;
+  border-bottom: 5px solid #1a0d3b;
+  border-left: 30px solid #1a0d3b;
+  z-index: 1000;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+  text-decoration: None;
+}
+
+nav a:hover {
+  color:#1a0d3b; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; 
+  margin-top: 40px; 
+  margin-bottom: 40px;
+}
+
+.submit-button {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 30px;
+  width: 400px; 
+  height: auto; 
+  background: linear-gradient(135deg, #ac98cc, #7b5ea2); 
+  color: white;
+  border-radius: 12px;
+  border: 4px solid #1a0d3b; 
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+  margin-top: 0.5rem; 
+  justify-content: center;
+}
+
+.submit-button:hover {
+  background-color: #d8bfff; 
+  border: 4px solid #1a0d3b; 
+  transform: translateY(-2px);
+}
+
+.submit-button:focus,
+.submit-button:active {
+  outline: none;
+  border: 2px solid #ff99ff;
+  box-shadow: 0 0 8px #ffb3ff;
+}
+
+.modal-content {
+    background-color: #2B0139;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.modal-body {
+  color: #fff;
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 20px;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+}
+
+.modal-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.modal-body li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  transition: background 0.2s ease;
+}
+
+.modal-body li:last-child {
+  border-bottom: none;
+}
+
+.modal-body li:first-child {
+  font-weight: bold;
+  font-size: 22px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.modal-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 40px;
+  color: #fff;
+}
+
+.btn-close {
+    filter: invert(1);
+    width: 28px;
+    height: 28px;
+    color: #b19cd9
+}

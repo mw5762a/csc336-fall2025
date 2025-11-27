@@ -25,7 +25,7 @@ function NextWeek() {
 
             // 2 represents Tuesday (in days) 
             nextTuesday.setDate(nextTuesday.getDate() + ((2 - nextTuesday.getDay() + 7) % 7));
-            nextTuesday.setHours(20, 0, 0, 0);
+            nextTuesday.setHours(17, 0, 0, 0); //5pm in military time 
 
             const diff = nextTuesday - currentTime;
 
@@ -79,9 +79,8 @@ function NextWeek() {
                 </div>
             </div>
             <div className="episode-detials">
-                <h4>Episode 10 | Semifinals</h4>
-                <p> <b>Theme:</b> Prince</p>
-                <p> <b>Decription: </b>Competing for a spot in the finals, contestants will perform two dances to songs by Prince.</p>
+                <h4>Episode 11 | The Finale</h4>
+                <p> For the three-hour finale, each couple will perform three dances: a dance selected by one of the judges, an instant dance, and their freestyle routine.</p>
                 <a href="https://www.youtube.com/@dancingwiththestars" className="link-button">
                     Catch up with the results
                 </a>

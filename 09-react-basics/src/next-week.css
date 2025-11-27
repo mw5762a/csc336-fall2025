@@ -44,7 +44,7 @@ h1 {
   background: linear-gradient(135deg, #ac98cc, #7b5ea2);
   border-radius: 12px;
   padding: 2rem 1.5rem;
-  min-width: 100px;
+  width: 150px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
   display: flex;
   flex-direction: column;
@@ -96,6 +96,7 @@ h1 {
   margin-bottom: 10px; 
   padding-bottom: 10px; 
   border: 1px solid white; 
+  text-decoration: None;
 }
 
 .link-button:hover {
