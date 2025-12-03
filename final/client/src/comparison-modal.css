@@ -32,7 +32,7 @@
     opacity: 1;
 }
 
-.video-modal .btn-close {
+.comparison-modal .btn-close {
     filter: invert(0);
     width: 28px;
     height: 28px;

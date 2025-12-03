@@ -7,8 +7,16 @@ import Button from "react-bootstrap/Button";
 import "./finale-winner.css";
 
 function FinaleWinner() {
+    const [votesFromServer, setVotesFromServer] = useState()
     const [submitted, setSubmitted] = useState(false);
     const [showAlert, setAlert] = useState(false);
+
+    useEffect(() => {
+        fetch("/api/votes")
+            .then(result => result.json())
+            .then(data => setVotesFromServer(data))
+            .catch(err => console.error("Failed to load votes", err));
+    }, []);
 
     const [cards, setCards] = useState([
         {
@@ -60,41 +68,34 @@ function FinaleWinner() {
     }
 
     async function submitVotes() {
-        try {
-            const userVotes = cards.map(card => ({
-                id: card.id,
-                votes: card.votes,
-            }));
+        const userVotes = cards.map(card => ({
+            id: card.id,
+            name: card.title,
+            votes: card.votes
+        }));
 
-            const response = await fetch("http://localhost:3001/votes", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ votes: userVotes }),
-            });
+        const response = await fetch("/api/votes", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ votes: userVotes }),
+        });
 
-            if (!response.ok) throw new Error("Failed to submit votes");
-
-            const updatedVotes = await response.json();
-
-            setCards(prevCards =>
-                prevCards.map(card => {
-                    const backendVote = updatedVotes.find(v => v.id === card.id);
-                    const newVotes = backendVote ? backendVote.votes : card.votes;
-                    return {
-                        ...card, 
-                        votes: newVotes
-                    };
-                })
-            );
-
-            setSubmitted(true);
-
-        } catch (err) {
-            console.error(err);
-            alert("Something went wrong submitting votes.");
+        if (!response.ok) {
+            alert("Server error submitting votes");
+            return;
         }
-    }
 
+        const updatedVotes = await response.json();
+
+        setCards(prevCards =>
+            prevCards.map(card => {
+                const updated = updatedVotes.find(v => v.id === card.id);
+                return updated ? { ...card, votes: updated.votes } : card;
+            })
+        );
+
+        setSubmitted(true);
+    }
 
     useEffect(() => {
         if (showAlert) {

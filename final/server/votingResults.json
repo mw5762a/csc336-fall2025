@@ -1,9 +1,27 @@
-{
-    "FinaleStars": {
-        "Jordan": 0,
-        "Robert": 0, 
-        "Elaine": 0, 
-        "Dylan": 0, 
-        "Alix": 0
-    }
-}
+[
+  {
+    "id": 1,
+    "name": "Jordan",
+    "votes": 6
+  },
+  {
+    "id": 2,
+    "name": "Alix",
+    "votes": 4
+  },
+  {
+    "id": 3,
+    "name": "Dylan",
+    "votes": 0
+  },
+  {
+    "id": 4,
+    "name": "Robert",
+    "votes": 2
+  },
+  {
+    "id": 5,
+    "name": "Elaine",
+    "votes": 0
+  }
+]

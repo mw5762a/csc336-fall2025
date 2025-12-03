@@ -3,6 +3,7 @@
         "Theme": "Premier",
         "FeaturedVideo": "https://www.youtube.com/embed/sMISNyRlfps",
         "NumberJudges": 2,
+        "NumberDances": 1, 
         "Contestants": [
             {
                 "Star": "Jordan",
@@ -121,6 +122,7 @@
     "Week 2": {
         "Theme": "One-Hit Wonder Night",
         "NumberJudges": 3,
+        "NumberDances": 1, 
         "FeaturedVideo": "https://www.youtube.com/embed/Gx4PD2Jw1wg",
         "Contestants": [
             {
@@ -241,6 +243,7 @@
         "Theme": "TikTok Night",
         "FeaturedVideo": "https://www.youtube.com/embed/u9ZA2-17NXs",
         "NumberJudges": 3,
+        "NumberDances": 1, 
         "Contestants": [
             {
                 "Star": "Jen",
@@ -343,6 +346,7 @@
     "Week 4": {
         "Theme": "Disney Night",
         "NumberJudges": 3,
+        "NumberDances": 1, 
         "FeaturedVideo": "https://www.youtube.com/embed/1KtmQ37W0z0",
         "Contestants": [
             {
@@ -438,6 +442,7 @@
     "Week 5": {
         "Theme": "Dedication Night",
         "NumberJudges": 4,
+        "NumberDances": 1, 
         "FeaturedVideo": "https://www.youtube.com/embed/tltdpFQkD5o",
         "Contestants": [
             {
@@ -525,6 +530,7 @@
     "Week 6": {
         "Theme": "Wicked Night",
         "NumberJudges": 4,
+        "NumberDances": 1, 
         "FeaturedVideo": "https://www.youtube.com/embed/27uPwH1P4uc",
         "Contestants": [
             {
@@ -611,6 +617,7 @@
     },
     "Week 7": {
         "Theme": "Halloween Night",
+        "NumberDances": 1, 
         "NumberJudges": 4,
         "FeaturedVideo": "https://www.youtube.com/embed/C1VrH9X84k",
         "Contestants": [
@@ -691,6 +698,7 @@
     "Week 8": {
         "Theme": "Rock and Roll Night Hall of Fame",
         "NumberJudges": 4,
+        "NumberDances": 1, 
         "FeaturedVideo": "https://www.youtube.com/embed/PjUM2tEUDcg",
         "Contestants": [
             {
@@ -761,6 +769,7 @@
     },
     "Week 9": {
         "Theme": "20th Birthday Party",
+        "NumberDances": 2, 
         "NumberJudges": 4,
         "FeaturedVideo": "https://www.youtube.com/embed/DXqFO23sj_E",
         "Contestants": [
@@ -825,6 +834,7 @@
     "Week 10": {
         "Theme": "Prince Night (Semifinals)",
         "NumberJudges": 3,
+        "NumberDances": 2, 
         "FeaturedVideo": "https://www.youtube.com/embed/AaapMFGNSq0?si=6BYR1etlCsY6U6Al",
         "Contestants": [
             {

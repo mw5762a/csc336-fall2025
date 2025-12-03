@@ -1,5 +1,7 @@
 ## Dancing With The Stars (Season 34) 
 
+### Link to Render: [link]()
+
 ### General App Description 
 My app is a reflection of my hyperfixation on Dancing with the Stars Season 34. It features a navigation bar with four pages: Home, Finale Voting, Previous Weeks, and Star Stats.
 
