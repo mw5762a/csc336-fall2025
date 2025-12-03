@@ -1,6 +1,6 @@
 ## Dancing With The Stars (Season 34) 
 
-### Link to Render: [link]()
+### Link to Render: [link](https://csc336-fall2025-6qj9.onrender.com)
 
 ### General App Description 
 My app is a reflection of my hyperfixation on Dancing with the Stars Season 34. It features a navigation bar with four pages: Home, Finale Voting, Previous Weeks, and Star Stats.
@@ -21,6 +21,11 @@ For my countdown to Season 35, I used the World Time API, which returns a JSON o
 Finally, I used React Bootstrap for my modals and error messages. Using this package allowed for easy integration into my existing components, and because the library is built specifically for React, it works smoothly with features like useState and useEffect. This helped abstract away much of the complexity and kept my core code clean and focused. You can see the errors being displayed when a user either (1) tries to give more than 10 votes to a star or (2) tries to compare stars results without properly selecting stars from the drop down menu. 
 
 ### Connection to Backend 
-In the backend, I managed how many times users have voted for stars in the finale. I kept a JSON file that would accumulate their votes and send it back to the front end to be displayed in a modal. 
+In the backend, I managed how many times users have voted for stars in the finale. I kept a JSON file in the backend that accumulates total votes - persisted across sessions. This is then sent back to the front end to be displayed in a modal with total votes for each star. 
 
-The "form" the front end is posting to comes from the Finale Voting page where vote buttons increase a counter and the submit button will submit the "form" and send it to the backend via a POST call.  
+The "form" the front end is posting to comes from the Finale Voting page where vote buttons increase a counter and the submit button will submit the "form" and send it to the backend via a POST call. Following this, there is a fetch call to get the accumulated values and display them on a modal. 
+
+### Notes and Challenges 
+I faced some issues when integrating the recharts API for graphs, specifically when it came to styling. Despite the extensive examples and resources on the API, I had troubles doing things like changing the tooltip format, axis-labels, ect. 
+
+The season finale did happen two weeks ago but I did not want to redo my whole website to account for that so lets just pretend it hasn't happened yet. (P.S. Robert won). 
